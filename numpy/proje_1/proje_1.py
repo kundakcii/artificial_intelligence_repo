@@ -65,7 +65,10 @@ a = a**2
 # İSTATİSTİK
 dizi4 = np.array([[1, 2, 3], [4, 5, 6]])
 np_min = np.min(dizi4)
-np_max=np.max(dizi4)
+np_max = np.max(dizi4)
 np_sum = np.sum(dizi4)
 
-#Dosyadan Dizi yükelem
+# Dosyadan Dizi yükelem
+filedata = np.genformtxt('ornek')
+filedata = filedata.astype('int32')
+print(filedata)
