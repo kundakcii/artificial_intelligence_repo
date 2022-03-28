@@ -17,7 +17,7 @@ df = pd.read_csv('polynomial.csv', sep=';')
 
 # Bir adet polynomial  regression nesnesi oluşturması için PolynomialFeatures fonksiyonunu çağırıyoruz...
 # Bu fonskiyonu çağırırken polinomun derecesini (N) belirtiyoruz:
-polynomial_regression = PolynomialFeatures(degree=4)
+polynomial_regression = PolynomialFeatures(degree=5)
 x_polynomial = polynomial_regression.fit_transform(df[['deneyim']])
 
 
@@ -25,7 +25,16 @@ x_polynomial = polynomial_regression.fit_transform(df[['deneyim']])
 # yani regresyon modelimizi mevcut gerçek verilerle eğitiyoruz:
 reg = LinearRegression()
 reg.fit(x_polynomial, df['maas'])
+
+# model görselleştirme
+y_head = reg.predict(x_polynomial)
+plt.plot(df['deneyim'], y_head, color='red', label='polynomial regression')
+plt.legend()
+plt.scatter(df['deneyim'], df['maas'])
+plt.show()
+
+
 x_polynomial1 = polynomial_regression.fit_transform([[4.5]])
-reg.predict(x_polynomial1)
+reg = reg.predict(x_polynomial1)
 
 # #### Alacağı maaş çok güzel bir şekilde şirket politikasına fit etmiş oluyor hakkı yenmeden ! :)
