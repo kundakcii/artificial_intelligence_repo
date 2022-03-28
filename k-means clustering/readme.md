@@ -111,8 +111,4 @@ kısace Siluet değeri, bir noktanın diğer kümelere kıyasla kendi kümesine 
 </ul>
 <br>
 The Elbow Method daha çok bir karar kuralıdır, Silhouette ise kümeleme sırasında doğrulama için kullanılan bir ölçümdür. Böylece Dirsek Metodu ile birlikte kullanılabilir.
-<<<<<<< HEAD
 </br>
-=======
-</br>
->>>>>>> 6d5bb5de914e4b02dcb0ac17c504d603c095fd9a
