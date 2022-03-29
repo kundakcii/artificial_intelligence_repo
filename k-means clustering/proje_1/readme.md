@@ -8,27 +8,33 @@ k-means clustering ' de ilk adımı attım. bu projede The Elbow Method 'nu kull
 </br>
 <center><h2>Projeden fotoğraflar</h2></center>
 <center>
- <br>
+ <h3>
+ <b>
      Verilerin çizilmesi
-     </br>
+     </b>
+     </h3>
 <img src="https://github.com/kundakcii/artificial_intelligence_repo/blob/main/k-means%20clustering/proje_1/Figure%202022-03-29%20113346.png"
      alt="verilerin çizilmesi"
  />
 </center>
 
 <center>
-  <br>
+  <h3>
+  <b>
      The Elbow Method kullanarak k değerinin belirlenmesinin çizimi
-     </br>
+     </b>
+     </h3>
 <img src="https://github.com/kundakcii/artificial_intelligence_repo/blob/main/k-means%20clustering/proje_1/Figure%202022-03-29%20113220.png"
      alt="The Elbow Method kullanarak k değerinin belirlenmesinin çizimi"
     />
 </center>
 
 <center>
-<br>
+<h3>
+<b>
 Clustering centers 
-</br>
+</b>
+</h3>
 <img src="https://github.com/kundakcii/artificial_intelligence_repo/blob/main/k-means%20clustering/proje_1/Figure%202022-03-29%20113332.png"
   alt="clustering centers "
  />
