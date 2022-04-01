@@ -39,8 +39,8 @@ Daha sonra modelimizi oluşturduk ve hangi featurların kategorik değer taşıd
 son olarak modelimizin oluşturduğu sınıflandırmaya ait bazı verileri görselleştirdik...
 </li>
 </ul>
-<img src="https://github.com/kundakcii/artificial_intelligence_repo/blob/main/kmodes%20m%C3%BC%C5%9Fteri%20segmantasyonu/Figure%202022-04-01%20171141.png" alt="Age-Income graph" >
-<img src="https://github.com/kundakcii/artificial_intelligence_repo/blob/main/kmodes%20m%C3%BC%C5%9Fteri%20segmantasyonu/Figure%202022-04-01%20173035.png" alt="Education-Income graph" >
+<img  width="500" height="600" src="https://github.com/kundakcii/artificial_intelligence_repo/blob/main/kmodes%20m%C3%BC%C5%9Fteri%20segmantasyonu/Figure%202022-04-01%20171141.png" alt="Age-Income graph" >
+<img  width="500" height="600" src="https://github.com/kundakcii/artificial_intelligence_repo/blob/main/kmodes%20m%C3%BC%C5%9Fteri%20segmantasyonu/Figure%202022-04-01%20173035.png" alt="Education-Income graph" >
 
 <br>
 Herkese iyi günler...
