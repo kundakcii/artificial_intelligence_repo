@@ -1,0 +1,1 @@
+<center><h1><b>El Yazısı Rakamları Tanıma</b></h1></center>
